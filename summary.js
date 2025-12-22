@@ -1,4 +1,4 @@
-//* Array
+//* ARRAY
 let siswa = ["dimas", "jelii", "irfan", "samsul"];
 console.log(siswa[0], "pergi jalan-jalan sama", siswa[1]);
 
@@ -30,7 +30,7 @@ let yangTerbaik = nmbhMenteri.slice(); // ambil menteri terbaik (misal semua ter
 console.log("list menteri baru untuk jayakarta", nmbhMenteri);
 console.log("menteri terbaik:", yangTerbaik);
 
-//* FUNCTION SUMMARY
+//* FUNCTION
 
 // Function adalah blok kode yang bisa dipakai ulang
 
@@ -48,3 +48,23 @@ function tambah(a, b) {
 
 let hasil = tambah(2, 4);
 console.log("jumlah", hasil);
+
+///* OBJECT SUMMARY
+
+let mhs = {
+  nama: "ahmad",
+  umur: 22,
+  aktif: true,
+};
+
+// ambil data
+console.log(mhs.nama);
+console.log(mhs["umur"]);
+
+// ubah data
+mhs.umur = 23;
+
+// tambah data
+mhs.jurusan = "Informatika";
+
+console.log("data diri ahmad", mhs);
