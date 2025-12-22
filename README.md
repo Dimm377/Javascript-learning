@@ -2,7 +2,7 @@
 
 This repository contains my personal notes and summaries while learning JavaScript.
 
-### Topics
+### Including
 - Variables
 - Arrays
 - Functions
