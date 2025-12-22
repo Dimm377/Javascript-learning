@@ -3,4 +3,9 @@
 - Array
 - Functions
 - Object
+
+## Objective
+
+**Understand basic JavaScript concepts through hands-on practice and simple examples**
+
 ### repo for personal study notes
