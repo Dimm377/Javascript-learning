@@ -29,3 +29,22 @@ let yangTerbaik = nmbhMenteri.slice(); // ambil menteri terbaik (misal semua ter
 
 console.log("list menteri baru untuk jayakarta", nmbhMenteri);
 console.log("menteri terbaik:", yangTerbaik);
+
+//* FUNCTION SUMMARY
+
+// Function adalah blok kode yang bisa dipakai ulang
+
+function botMenyapa(name) {
+  console.log("Halo", name);
+}
+
+botMenyapa("dimas");
+botMenyapa("jelii");
+
+// Function dengan return
+function tambah(a, b) {
+  return a + b;
+}
+
+let hasil = tambah(2, 4);
+console.log("jumlah", hasil);
