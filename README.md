@@ -3,4 +3,4 @@
 - Array
 - Functions
 - Object
-##### repo for personal study notes
+### repo for personal study notes
