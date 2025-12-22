@@ -1,11 +1,12 @@
-## Just a javascript learning documentation & my learning javascript summary
-- Variabels
-- Array
+## JavaScript Learning Documentation & Summary
+
+This repository contains my personal notes and summaries while learning JavaScript.
+
+### Topics
+- Variables
+- Arrays
 - Functions
-- Object
+- Objects
 
-## Objective
-
-**Understand basic JavaScript concepts through hands-on practice and simple examples**
-
-### repo for personal study notes
+### Objective
+Understand basic JavaScript concepts through hands-on practice and simple examples.
