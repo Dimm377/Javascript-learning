@@ -1,7 +1,6 @@
-# Just a javascript documentation
+# Just a javascript learning documentation & my learning javascript summary
 - Variabels
 - Array
 - Functions
 - Object
-### and my learning javascript summary
 ##### repo for personal study notes
