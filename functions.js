@@ -8,3 +8,17 @@ function sayHello(name) {
 }
 
 sayHello("dimas");
+
+//? what are two reasons to create a function
+// untuk melakukan suatu tindakan tertentu atau untuk mrnghitung suatu nilai dan mengembalikan nilai tersebut (return )
+
+//* Type of function
+
+// Function dengan return value
+// menerima paramater untuk memproses data
+// mengembalikan hasil return
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+console.log(multiply(2, 2));
