@@ -1,4 +1,4 @@
-# Just a javascript learning documentation & my learning javascript summary
+## Just a javascript learning documentation & my learning javascript summary
 - Variabels
 - Array
 - Functions
