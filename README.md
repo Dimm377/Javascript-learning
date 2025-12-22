@@ -1,1 +1,1 @@
-*Just a javascript documentation*
+**Just a javascript documentation**
