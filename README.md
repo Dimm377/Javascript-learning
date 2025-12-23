@@ -1,10 +1,10 @@
 ## JavaScript Learning Documentation & Summary
 
 This repository contains my personal notes and summaries while learning JavaScript and I have finally established a learning method that suits my style
-if you want to run the code 
-'''
+if you want to run the code (using node.js)
+```
 node Objects.js or etc
-'''
+```
 ### Including
 - Variables
 - Arrays
@@ -19,7 +19,7 @@ Understand basic JavaScript concepts through hands-on practice and simple exampl
 #### Install your runtime (all three have their own advantages)
  
 * [Node.js](https://nodejs.org/en/download)
-* [Bun](https://bun.com/)
+* [Bun](https://bun.sh/)
 * [Deno](https://deno.com/)
   
 **dont forget to read the runtime docs lol**
