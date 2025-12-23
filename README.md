@@ -1,6 +1,6 @@
 ## JavaScript Learning Documentation & Summary
 
-This repository contains my personal notes and summaries while learning JavaScript I have finally established a learning method that suits my style
+This repository contains my personal notes and summaries while learning JavaScript and I have finally established a learning method that suits my style
 ### Including
 - Variables
 - Arrays
