@@ -1,5 +1,5 @@
 //* Operator javascript -> +, -, *, /, %
-
+//* + Summary
 // let num1 = 10;
 // let num2 = 5;
 
@@ -19,14 +19,14 @@
 // a *= 2;  nilai a  dikali 2
 // a /= 2; nilai a dibagi 2
 // a %= 2;  nilai a sisa bagi 2
-// hasil nya 5
+
+// hasil akhirnya kembali ke variabel a
 
 //console.log(a);
 
 // ? What is operator comparison ?
 // Operator comparison digunakan untuk membandingkan dua nilai
 // Hasilnya berupa boolean (true / false)
-
 //* Operator comparison (perbandingan)
 
 let num1 = 15;
@@ -54,6 +54,7 @@ console.log(isNum1LessThan);
 // dalam satu baris agar kode lebih singkat dan mudah dibaca
 
 let age = 18;
+//const dapetSim = age >= 18; // bisa gini juga biar singkat
 const dapetSim = age >= 18 ? true : false; // kalo umur lebih dari 18 / sam dengan 18 maka bisa dapet sim
 console.log(dapetSim);
 
@@ -62,7 +63,54 @@ let nilai = 80;
 const hasil = nilai >= 80 ? "A" : "B";
 console.log(hasil);
 
-//* Logical operator
+//* Logical Operator + Summary
+//? what is logical operator
+// Logical operator adalah simbol khusus / kata kunci yang digunakan untuk ekpresi untuk melakukan operasi logika
+// Hasilnya berupa true atau false
 
-//? What is logical operator
-//
+let hasRegister = true;
+let notRegister = false;
+const hasAccessToRoom = hasRegister || notRegister; // OR || salah satu true → hasil true
+console.log(hasAccessToRoom); // true
+
+let foodPrice = 16;
+let hasPaid = true;
+
+const hasBought = foodPrice >= 16 && hasPaid; // AND && semua kondisi harus true
+console.log(hasBought); // true
+
+let restaurantClosed = true;
+let restaurantOpen = !restaurantClosed; // NOT ! membalikan nilai boolean misal true -> false dan sebaliknya
+
+console.log(restaurantOpen); // output nya false
+
+let username = null;
+let displayname = username ?? "pengunjung"; // ?? digunakan jika nilai di kiri null atau undefined
+
+console.log(displayname);
+
+//* Logical operator non boolean
+
+let usersChosenColor = "red";
+let defaultColor = "black";
+
+const currentColor = usersChosenColor || defaultColor; // jika usersChosenColor ada isinya maka pakai itu, klo gaada pakai defaultColor
+
+console.log(currentColor); // outputnya red / outputnya black jika di isi null, '', 0, undefined, false, dan NaN
+
+//? common quest
+// what are the falsy value ? :
+// null, 0, false, undefined, NaN
+
+// How do logical operator function when applied to non boolean value ? :
+// nilai operator dievaluasi dari kiri ke kanan (short circuit operation), mengembalikan nilai terakhi yang dievaluasi
+
+//* Operator presendence
+//? what is operator presendence ?
+// untuk menentukan urutan eksekusi () -> artinya dieksekusi dulu jadi gini 5 + 5 dijumlah kan dulu baru dikali 4 // pokoknya klo ada angka nya di dalem () berarti didulukan
+let num = (5 + 5) * 4;
+let tanpaKurung = 5 + 5 * 4; // hasilnya 25 karena kali dulu baru tambah basic mtk lah ya
+// bacanya gini keknya 5 + (5 * 4)
+// si js ngecek dari kiri ke kanan, eksekusi nya tergantung prioritas operator contohnya diatas +, * yang di dulukan * karena lebih tinggi
+console.log(num);
+console.log(tanpaKurung);
