@@ -61,10 +61,10 @@ let mhs = {
 console.log(mhs.nama);
 console.log(mhs["umur"]);
 
-// ubah data
+// merubah data
 mhs.umur = 23;
 
-// tambah data
+// klo mau nambah data object
 mhs.jurusan = "Informatika";
 
 console.log("data diri ahmad", mhs);
