@@ -17,7 +17,10 @@ node Objects.js or etc
 Understand basic JavaScript concepts through hands-on practice and simple examples
 
 #### Install your runtime (all three have their own advantages)
- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) [Download](https://nodejs.org/en)
- ![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white) [Download](https://bun.sh/)
- ![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white) [Downlaod](https://deno.com/)
+ ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) 
+ [Download](https://nodejs.org/en)
+ ![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white) 
+ [Download](https://bun.sh/)
+ ![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white) 
+ [Downlaod](https://deno.com/)
 **dont forget to read the runtime docs lol**
