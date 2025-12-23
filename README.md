@@ -18,8 +18,8 @@ Understand basic JavaScript concepts through hands-on practice and simple exampl
 
 #### Install your runtime (all three have their own advantages)
  
-* [Node.js](https://nodejs.org/en/download)
-* [Bun](https://bun.sh/)
-* [Deno](https://deno.com/)
+* [Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) [Download](https://nodejs.org/en/download)
+* [Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white) [Download](https://bun.sh/)
+* [Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white) [Download](https://deno.com/)
   
 **dont forget to read the runtime docs lol**
