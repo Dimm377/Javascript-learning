@@ -8,6 +8,7 @@ This repository contains my personal notes and summaries while learning JavaScri
 - Functions
 - Objects
 - Operator
+- Loop
 
 ### Objective
 Understand basic JavaScript concepts through hands-on practice and simple examples
