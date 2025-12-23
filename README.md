@@ -7,6 +7,7 @@ This repository contains my personal notes and summaries while learning JavaScri
 - Arrays
 - Functions
 - Objects
+- Operator
 
 ### Objective
 Understand basic JavaScript concepts through hands-on practice and simple examples
