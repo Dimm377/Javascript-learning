@@ -28,7 +28,7 @@ do {
 
 const obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
 for (let key in obj) {
-  if (key === "d") {
+  if (key === 'd') {
     break;
   }
   console.log(obj[key]);
@@ -71,7 +71,7 @@ do {
 
 const obj2 = { a: 1, b: 2, c: 3, d: 4, e: 5 };
 for (let key in obj2) {
-  if (key === "d") {
+  if (key === 'd') {
     continue;
   }
   console.log(obj2[key]);

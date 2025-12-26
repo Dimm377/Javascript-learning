@@ -1,23 +1,42 @@
-## JavaScript Learning Documentation & Summary
+# JavaScript Learning Documentation & Summary
 
-This repository contains my personal notes and summaries while learning JavaScript and I have finally established a learning method that suits my style
-if you want to run the code (using node.js)
+Repositori catatan pembelajaran JavaScript yang terstruktur modular.
+
+## Struktur Folder
+
+| Folder | Topik | Isi |
+|--------|-------|-----|
+| `basics/` | Dasar-dasar | Variables, Primitives |
+| `operators/` | Operator | Arithmetic, Logical, Ternary |
+| `data-structures/` | Struktur Data | Array, Object |
+| `conditionals/` | Percabangan | If-else, Switch-case |
+| `loops/` | Perulangan | For, While, Do-while, For-in, For-of |
+| `functions/` | Fungsi | Function declaration, Return |
+| `summary/` | Rangkuman | Kombinasi semua materi |
+
+## Quick Start
+
+```bash
+# Jalankan file dengan Node.js, Bun, atau Deno
+node basics/variables.js
+bun operators/operator.js
+deno run data-structures/array.js
 ```
-node Objects.js or etc
-```
-### Including
-- Variables
-- Arrays
-- Functions
-- Objects
-- Operator
-- Loop (ForLoops, WhileLoops, Do-whileLoops)
 
-### Objective
-Understand basic JavaScript concepts through hands-on practice and simple examples
+## Learning Path
 
-#### Install your runtime (all three have their own advantages)
+1. Mulai dari `basics/` untuk memahami variabel dan tipe data
+2. Lanjut ke `operators/` untuk operator
+3. Pelajari `data-structures/` (Array & Object)
+4. Pahami percabangan di `conditionals/`
+5. Kuasai perulangan di `loops/`
+6. Pelajari function di `functions/`
+7. Review semua di `summary/`
+
+## Runtime Options
+
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/en) [![Bun](https://img.shields.io/badge/Bun-FFFFFF?style=flat&logo=bun&logoColor=black)](https://bun.sh/) [![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white)](https://deno.com/)
 
+## Runtime Options
 
-**dont forget to read the runtime docs lol**
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/en) [![Bun](https://img.shields.io/badge/Bun-FFFFFF?style=flat&logo=bun&logoColor=black)](https://bun.sh/) [![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white)](https://deno.com/)
